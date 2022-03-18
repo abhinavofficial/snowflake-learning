@@ -873,7 +873,7 @@ TIMESTAMP_FORMAT = 'AUTO'
 NULL_IF = ('\\N');
 
 CREATE OR REPLACE STAGE LIKE_A_WINDOW_INTO_AN_S3_BUCKET 
-SET URL = 's3://uni-lab-files';
+URL = 's3://uni-lab-files';
 -- CREDENTIALS = (AWS_KEY_ID = 'AKUMARGCP' AWS_SECRET_KEY = '***********');
 
 list@like_a_window_into_an_s3_bucket;
